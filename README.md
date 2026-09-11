@@ -7,5 +7,5 @@ This React application consists of a loan calculator feature. It enables users t
 1. Clone this repository to your local machine.
 2. Install dependencies using `npm install` or `yarn install`.
 3. Run the application using `npm start` or `yarn start`.
-4. Input your investment parameters in the designated fields.
+4. Input your loan parameters in the designated fields.
 5. View the calculated monthly repayments.
