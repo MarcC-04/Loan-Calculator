@@ -1,0 +1,85 @@
+body {
+  width: 1126px;
+  max-width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  border-inline: 1px solid var(--border);
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  background-color: rgb(14, 136, 218);
+  justify-content: center;
+  align-items: center;
+}
+
+h1{
+  color: white;
+  font-size: 2.5rem;
+  margin-top: 1rem;
+  font-family: 'Arial', sans-serif;
+  font-weight: bold;
+}
+
+.calculator-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+  gap: 10px;
+  background-color: rgb(15, 117, 212);
+  padding: 60px 60px;
+  border-radius: 10px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.loanamount-input, .interest-input, .duration-input {
+  width: 300px;
+  padding: 15px;
+  margin: 10px 0;
+  border: 1px solid #000000;
+  border-radius: 4px;
+  font-size: 18px;
+  font-family: 'Arial', sans-serif;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.calculate-button {
+  padding: 10px 20px;
+  background-color: #25c025;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  font-family: 'Arial', sans-serif;
+}
+.calculate-button:hover {
+  background-color: #33b649;
+}
+.reset-button {
+  padding: 10px 20px;
+  background-color: red;
+  color: white;
+   border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  font-family: 'Arial', sans-serif;
+}
+.reset-button:hover {
+  background-color: #cc0000;
+}
+
+.monthlyPayment {
+  margin-top: 20px;
+  font-family: 'Arial', sans-serif;
+  font-size: 20px;
+}
+
+
+
+
+
