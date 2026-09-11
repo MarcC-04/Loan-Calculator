@@ -1,6 +1,6 @@
 # Loan Calculator
 
-React application that consists of a loan calculator. It enables users to input parameters such as the loan amount, interest rate (%) and duration (in months) and returns the monthly repayment they would need to pay back.
+React application that enables a users to input parameters such as the loan amount, interest rate (%) and duration (in months) and calculate their monthly repayment for a loan.
 
 ## How to Use
 
